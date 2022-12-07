@@ -25,7 +25,7 @@ REGOLE
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name = "El Mehdi";
+let name = "El Mehdi";
 console.log(name);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -33,14 +33,14 @@ console.log(name);
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var  number = 20 + 12;
+let  number = 20 + 12;
 console.log ("total:", number) ;
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var x = 12;
+let x = 12;
 
 
 /* ESERCIZIO 5
@@ -50,7 +50,7 @@ var x = 12;
   *
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var lastname  = "touri";
+let lastname  = "touri";
 console.log("lastname:", lastname)
 
 
@@ -59,7 +59,7 @@ console.log("lastname:", lastname)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var z = x  - 4;
+let z = x  - 4;
 console.log(z);
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -68,8 +68,8 @@ console.log(z);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name1 ="john";
-var name2 = "John";
+let name1 ="john";
+let name2 = "John";
 
 console.log("john" === "John");
 console.log(name2.toLocaleLowerCase() === name1);
